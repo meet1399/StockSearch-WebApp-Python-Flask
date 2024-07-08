@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background: url(/static/img/back.svg) top center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 2000px 300px;
+    position: absolute;
+}
+
+input:focus {
+	outline: none;
+}
+
+#search {
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+}
+
+#title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 30px 0px 30px 0px;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 750px;
+    box-shadow: 0px 1px 5px lightgrey;
+    border-radius: 12px 12px 12px 12px;
+    background-color: white;
+}
+
+.buttonImg {
+    height: 20px;
+    width: 15px;
+    display: inline-block;
+    align-items: center;
+    opacity: .2;
+    margin: 5px 10px 5px 12px;
+}
+
+.buttonImg:hover {
+    opacity: .6;
+}
+
+#vl {
+    border-right: 1px solid gray;
+    min-height: 100%;
+    opacity: .2;
+    padding-right: 2px;
+}
+
+#inputField {
+    font-size: 18px;
+    border: 0;
+    width: 665px;
+    opacity: .6;
+    font-family: "Open Sans", sans-serif;
+} 
+
+#bar {
+    height: 60px;
+    width: 60%;
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa;
+}
+
+.box {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 15px 20px 15px;
+    opacity: .5;
+}
+
+#companySec {
+    text-align: center;
+    align-items: center;
+}
+
+#companyLogo {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 100px;
+}
+
+.companyTable {
+    margin: auto;
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 500px;
+}
+
+.companyR {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 10px;
+}
+
+.companyH {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    width: 50%;
+    padding: 4px;
+}
+
+.companyD {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    width: 50%;
+    padding: 4px;
+}
+
+#summarySec {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.arrow {
+    width: 14px;
+}
+
+.trends {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendText {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.trendText1 {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    opacity: .6;
+}
+
+#redTrendText {
+    color: red;
+}
+
+#greenTrendText {
+    color: green;
+}
+
+.trendBox {
+    height: 40px;
+    width: 40px;
+    color: white;
+    padding: 8.5px;
+    font-size: 16px;
+}
+
+#box1 {
+    background-color: #ea253e;
+}
+
+#box2 {
+    background-color: #b05e4d;
+}
+
+#box3 {
+    background-color: #77945e;
+}
+
+#box4 {
+    background-color: #40ca70;
+}
+
+#box5 {
+    background-color: #21ff83;
+}
+
+#chartSec {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newsSec {
+    align-items: center;
+}
+
+.newsItem {
+    display: flex;
+    height: 120px;
+    background-color: #f8f9fa;
+    margin: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.newsImg {
+    width: 90px;
+    height: 90px;
+}
+
+.newsHead {
+    font-weight: bold;
+}
+
+.newsContent {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#errorSec {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    opacity: .7;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
